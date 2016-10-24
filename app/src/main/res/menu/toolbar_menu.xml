@@ -4,14 +4,14 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
-        android:id="@+id/action_music"
-        android:icon="@drawable/music"
-        android:title="@string/music"
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_action_search"
+        android:title="@string/search"
         app:showAsAction="ifRoom"/>
 
-    <item android:id="@+id/action_video"
-        android:icon="@drawable/video"
-        android:title="@string/music"
+    <item android:id="@+id/action_person"
+        android:icon="@drawable/ic_action_person"
+        android:title="@string/person"
         app:showAsAction="ifRoom"/>
 
     <item android:id="@+id/action_quit"

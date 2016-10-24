@@ -29,12 +29,12 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
-            case R.id.action_music:
-                Toast.makeText(getBaseContext(), "Music", Toast.LENGTH_SHORT).show();
+            case R.id.action_search:
+                Toast.makeText(getBaseContext(), "Search", Toast.LENGTH_SHORT).show();
                 return true;
 
-            case R.id.action_video:
-                Toast.makeText(getBaseContext(), "Video", Toast.LENGTH_SHORT).show();
+            case R.id.action_person:
+                Toast.makeText(getBaseContext(), "Person", Toast.LENGTH_SHORT).show();
                 return true;
 
             case R.id.action_quit:
